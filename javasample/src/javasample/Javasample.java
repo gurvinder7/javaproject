@@ -19,8 +19,10 @@ public class Javasample {
         student s1=new student();
         s1.setSname("gurvinder");
         s1.setResult("pass");
+        s1.setRollnumber(12);
         System.out.println(s1.getSname());
         System.out.println(s1.getResult());
+        System.out.println(s1.getRollnumber());
     }
     
 }
