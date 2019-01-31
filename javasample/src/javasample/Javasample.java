@@ -18,6 +18,7 @@ public class Javasample {
         // TODO code application logic here
         student s1=new student();
         student s2=new student();
+        student s3=new student();
         
         s1.setSname("gurvinder");
         s1.setResult("pass");
@@ -27,9 +28,12 @@ public class Javasample {
         System.out.println(s1.getRollnumber());
         
         
+        s3.setSname("mangat");
         s2.setSname("mangat");
         s2.setResult("pass");
         s2.setRollnumber(134);
+        
+         System.out.println(s3.getSname());
         System.out.println(s2.getSname());
         System.out.println(s2.getResult());
         System.out.println(s2.getRollnumber());

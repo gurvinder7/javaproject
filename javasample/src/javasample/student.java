@@ -12,6 +12,16 @@ package javasample;
 public class student {
     String sname;
     String result;
+    int rollnumber;
+
+    public int getRollnumber() {
+        return rollnumber;
+    }
+
+    public void setRollnumber(int rollnumber) {
+        this.rollnumber = rollnumber;
+    }
+    
 
     public String getSname() {
         return sname;
